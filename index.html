@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/helmet.png" type="image/x-icon">
+    <script src="index.js" defer></script>
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">MEMORY CHECK GAME</h1>
+        <p class="subtitle">
+          This game was developed by Eashwar Ediga that will test your memory. Match the icons to their respective
+          cards after they have flipped over good luck!
+        </p>
+      </header>
+      <div class="game-container">
+        <div class="countdown">
+            <button class="start" id="start">START</button>
+            <div class="timer"></div>
+        </div>
+        <div class="board-container">
+            <div class="game-board">
+              <div class="card1 card">
+                <div class="back back1"></div>
+              </div>
+              <div class="card2 card">
+                <div class="back back2"></div>
+              </div>
+              <div class="card3 card">
+                <div class="back back3"></div>
+              </div>
+              <div class="card4 card">
+                <div class="back back4"></div>
+              </div>
+              <div class="card5 card">
+                <div class="back back5"></div>
+              </div>
+              <div class="card6 card">
+                <div class="back back6"></div>
+              </div>
+              <div class="card7 card">
+                <div class="back back7"></div>
+              </div>
+              <div class="card8 card">
+                <div class="back back8"></div>
+              </div>
+              <div class="card9 card">
+                <div class="back back9"></div>
+              </div>
+              <div class="card10 card">
+                <div class="back back10"></div>
+              </div>
+              <div class="card11 card">
+                <div class="back back11"></div>
+              </div>
+              <div class="card12 card">
+                <div class="back back12"></div>
+              </div>
+              <div class="card13 card">
+                <div class="back back13"></div>
+              </div>
+              <div class="card14 card">
+                <div class="back back14"></div>
+              </div>
+              <div class="card15 card">
+                <div class="back back15"></div>
+              </div>
+              <div class="card16 card">
+                <div class="back back16"></div>
+              </div>
+            </div>
+            <p class="hint">*CLICK TWICE TO DELETE</p>
+            <button class="flip">FLIP</button>
+            <button class="submit">SUBMIT</button>
+        </div>
+        <div class="icons">
+            <div class="icon-wrapper">
+          <p class="icons-title">FOCUS</p>
+              <div class="icon1 icon">
+                <img src="assets/helmet.png" class="drag-icons helmet" draggable="true" id="1" alt="" />
+              </div>
+              <div class="icon2 icon">
+                <img src="assets/basketball.png" class="drag-icons basketball" draggable="true" id="2" alt="" />
+              </div>
+              <div class="icon3 icon">
+                <img src="assets/baseball.png" class="drag-icons baseball" draggable="true" id="3" alt="" />
+              </div>
+              <div class="icon4 icon">
+                <img src="assets/soccer.png" class="drag-icons soccer" draggable="true" id="4" alt="" />
+              </div>
+          </div>
+           <div class="score-display">
+                <p>YOUR SCORE</p>
+                <div class="player-score"></div>
+              </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
